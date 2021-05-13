@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-face-component-test/static/css/main.198a9cbf.chunk.css",
+    "main.js": "/react-face-component-test/static/js/main.d1b0b41a.chunk.js",
+    "main.js.map": "/react-face-component-test/static/js/main.d1b0b41a.chunk.js.map",
+    "runtime-main.js": "/react-face-component-test/static/js/runtime-main.54345458.js",
+    "runtime-main.js.map": "/react-face-component-test/static/js/runtime-main.54345458.js.map",
+    "static/js/2.d0e7656e.chunk.js": "/react-face-component-test/static/js/2.d0e7656e.chunk.js",
+    "static/js/2.d0e7656e.chunk.js.map": "/react-face-component-test/static/js/2.d0e7656e.chunk.js.map",
+    "static/js/3.32a89155.chunk.js": "/react-face-component-test/static/js/3.32a89155.chunk.js",
+    "static/js/3.32a89155.chunk.js.map": "/react-face-component-test/static/js/3.32a89155.chunk.js.map",
+    "index.html": "/react-face-component-test/index.html",
+    "static/css/main.198a9cbf.chunk.css.map": "/react-face-component-test/static/css/main.198a9cbf.chunk.css.map",
+    "static/js/2.d0e7656e.chunk.js.LICENSE.txt": "/react-face-component-test/static/js/2.d0e7656e.chunk.js.LICENSE.txt",
+    "static/media/face1.f3023ec1.png": "/react-face-component-test/static/media/face1.f3023ec1.png",
+    "static/media/logo.6ce24c58.svg": "/react-face-component-test/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54345458.js",
+    "static/js/2.d0e7656e.chunk.js",
+    "static/css/main.198a9cbf.chunk.css",
+    "static/js/main.d1b0b41a.chunk.js"
+  ]
+}
