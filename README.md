@@ -1,5 +1,7 @@
 git init
+\n
 git remote add origin https:
+\n
 git status
 git add .
 git commit -m "ini commiy"
