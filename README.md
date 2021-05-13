@@ -1,5 +1,4 @@
-git init
-\n
+git init<br/>
 git remote add origin https:
 \n
 git status
