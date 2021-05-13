@@ -3,6 +3,8 @@
 <br/>
 <br/>
 
+
+commands :<br/>
 git init<br/>
 git remote add origin https: <br/>
 git status<br/>
