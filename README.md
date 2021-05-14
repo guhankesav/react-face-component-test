@@ -8,7 +8,7 @@ A Breautiful component to display display profile pictures , with animation on h
 <br/>
 
 ## To be added in package.json
-  /t"homepage":"http://guhankesav.github.io/react-face-component-test"<br/>
+  <t/>"homepage":"http://guhankesav.github.io/react-face-component-test"<br/>
     "scripts": {<br/>
     "predeploy":"npm run build",<br/>
     "deploy":"gh-pages -d build",<br/>
