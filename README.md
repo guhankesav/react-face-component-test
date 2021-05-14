@@ -106,7 +106,8 @@ box-sizing: border-box;
 transition: all 0.5s ease;
 }
 ```
-
+## To install gh-pages<br/>
+ npm install --save gh-pages<br/>
 ## To be added in package.json
   <li>"homepage":"http://guhankesav.github.io/react-face-component-test"<br/>
     <li>"scripts": {<br/>
