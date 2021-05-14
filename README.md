@@ -9,13 +9,13 @@ A Breautiful component to display display profile pictures , with animation on h
 
 ## To be added in package.json
   <li>"homepage":"http://guhankesav.github.io/react-face-component-test"<br/><li/>
-    "scripts": {<br/>
+    <li>"scripts": {<br/>
     "predeploy":"npm run build",<br/>
     "deploy":"gh-pages -d build",<br/>
-  },<br/>
-  "devDependencies": {<br/>
+  },<br/><li/>
+   <li>"devDependencies": {<br/>
     "gh-pages": "^3.1.0"<br/>
-  }<br/>
+  }<br/><li/>
   
 ## Commands :<br/>
 git init<br/>
