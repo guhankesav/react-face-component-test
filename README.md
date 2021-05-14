@@ -11,27 +11,78 @@ A Breautiful component to display display profile pictures , with animation on h
 ## Code :
 
 ### facecomponent.css
+
+### facecomponent.jsx
 ```jsx
-import React, { useState } from "react";
+import React from 'react';
+import './face.css';
+import { useState } from 'react';
 
-import { ReactTransliterate } from "react-transliterate";
-import "react-transliterate/dist/index.css";
+import face1 from './../assets/images/face1.png';
 
-const App = () => {
-  const [text, setText] = useState("");
+function compress(){ 
+    var x = document.getElementById("ltt_lecture_dp_id")
+    var cir = document.getElementById("ltt_lecture_dp_circle_id")
+    var sq = document.getElementById("ltt_lecture_dp_square_id")
+  
+    sq.style.marginLeft= "-108px"
+    sq.style.marginTop = "-219px"
+    sq.style.transition=" margin 1s"
+  
+    
+    cir.style.marginLeft="97px"
+    cir.style.marginTop = "-211px"
+    cir.style.transition="margin 1s"
+  
+  
+    x.style.borderTopLeftRadius="30px"
+    x.style.borderTopRightRadius="30px"
+    x.style.borderBottomLeftRadius="30px"
+    x.style.borderBottomRightRadius="30px"
+  
+  
+  
+  
+    
+  }
+  function decompress(){ 
+    var x = document.getElementById("ltt_lecture_dp_id")
+    var cir = document.getElementById("ltt_lecture_dp_circle_id")
+    var sq = document.getElementById("ltt_lecture_dp_square_id")
+   
 
-  return (
-    <ReactTransliterate
-      value={text}
-      onChangeText={(text) => {
-        setText(text);
-      }}
-      lang="hi"
-    />
-  );
-};
 
-export default App;
+
+    sq.style.marginLeft="0px"
+    sq.style.marginTop = "-305px"
+    sq.style.transition="margin 2s"//top
+  
+    cir.style.marginLeft="0px"
+    cir.style.marginTop = "-0px"
+    cir.style.transition="margin 2s"
+  
+    x.style.borderTopRightRadius="70px"
+    x.style.borderBottomLeftRadius="70px"
+  
+  
+  
+  
+  }
+const  face=()=>{
+
+
+
+    
+    return (
+        <div >
+              
+                <img id="ltt_lecture_dp_id" className="ltt_lecture_dp" src={face1} onMouseOver={() => compress()} onMouseOut = {() => decompress()}></img>
+                <div id= "ltt_lecture_dp_square_id"className="ltt_lecture_dp_square"></div>
+                <div id="ltt_lecture_dp_circle_id" className="ltt_lecture_dp_circle"></div>
+        </div>
+    )
+}
+export default face;
 ```
 ## To be added in package.json
   <li>"homepage":"http://guhankesav.github.io/react-face-component-test"<br/>
