@@ -12,3 +12,7 @@ git add .<br/>
 git commit -m "ini commiy"<br/>
 npm run deploy<br/>
 git push -u origin master<br/>
+
+In case of origin prob :<br/>
+git remote rm origin
+
