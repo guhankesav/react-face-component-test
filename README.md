@@ -4,10 +4,6 @@ A Breautiful component to display display profile pictures , with animation on h
 ## Demo Link <br/>
 <h>https://guhankesav.github.io/react-face-component-test/<h/>
 
-<br/>
-<br/>
-
-
 ## Code :
 
 
