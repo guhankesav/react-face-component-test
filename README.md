@@ -10,7 +10,6 @@ A Breautiful component to display display profile pictures , with animation on h
 
 ## Code :
 
-### facecomponent.css
 
 ### facecomponent.jsx
 ```jsx
@@ -39,19 +38,12 @@ function compress(){
     x.style.borderTopRightRadius="30px"
     x.style.borderBottomLeftRadius="30px"
     x.style.borderBottomRightRadius="30px"
-  
-  
-  
-  
-    
+
   }
   function decompress(){ 
     var x = document.getElementById("ltt_lecture_dp_id")
     var cir = document.getElementById("ltt_lecture_dp_circle_id")
     var sq = document.getElementById("ltt_lecture_dp_square_id")
-   
-
-
 
     sq.style.marginLeft="0px"
     sq.style.marginTop = "-305px"
@@ -63,19 +55,11 @@ function compress(){
   
     x.style.borderTopRightRadius="70px"
     x.style.borderBottomLeftRadius="70px"
-  
-  
-  
-  
   }
 const  face=()=>{
-
-
-
-    
+ 
     return (
         <div >
-              
                 <img id="ltt_lecture_dp_id" className="ltt_lecture_dp" src={face1} onMouseOver={() => compress()} onMouseOut = {() => decompress()}></img>
                 <div id= "ltt_lecture_dp_square_id"className="ltt_lecture_dp_square"></div>
                 <div id="ltt_lecture_dp_circle_id" className="ltt_lecture_dp_circle"></div>
@@ -84,6 +68,49 @@ const  face=()=>{
 }
 export default face;
 ```
+
+### facecomponent.css
+```css
+
+.ltt_lecture_dp_square{
+  z-index: -1;
+  position: relative;
+
+  width: 214px;
+  height: 214px;
+  left: 206px;
+  top: 0px;
+  margin-left: 0px;
+  margin-top: -305px;
+  transition: all 0.5s ease;
+  border: 6px solid rgba(0, 0, 0, 0.53);
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+.ltt_lecture_dp{
+  width: 213px;
+  height: 217px;
+  top:105px;
+  left:99px;
+  margin-top: 105px;
+  margin-left: 99px;
+  border-radius: 30px 70px;
+  border: 0px ;
+  }
+.ltt_lecture_dp_circle{
+
+width: 214px;
+height: 207px;
+left: 0px;
+top: 219px;
+margin-top: -0px;
+border-radius: 50%;
+border: 6px solid rgba(0, 0, 0, 0.53);
+box-sizing: border-box;
+transition: all 0.5s ease;
+}
+```
+
 ## To be added in package.json
   <li>"homepage":"http://guhankesav.github.io/react-face-component-test"<br/>
     <li>"scripts": {<br/>
