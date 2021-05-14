@@ -6,7 +6,8 @@ A Breautiful component to display display profile pictures , with animation on h
 
 <br/>
 <br/>
-## to be added in package.json
+
+## To be added in package.json
   "homepage":"http://guhankesav.github.io/react-face-component-test"<br/>
     "scripts": {<br/>
     "predeploy":"npm run build",<br/>
@@ -15,6 +16,7 @@ A Breautiful component to display display profile pictures , with animation on h
   "devDependencies": {<br/>
     "gh-pages": "^3.1.0"<br/>
   }<br/>
+  
 ## Commands :<br/>
 git init<br/>
 git remote add origin https: <br/>
