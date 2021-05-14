@@ -7,6 +7,32 @@ A Breautiful component to display display profile pictures , with animation on h
 <br/>
 <br/>
 
+
+## Code :
+
+### facecomponent.css
+```jsx
+import React, { useState } from "react";
+
+import { ReactTransliterate } from "react-transliterate";
+import "react-transliterate/dist/index.css";
+
+const App = () => {
+  const [text, setText] = useState("");
+
+  return (
+    <ReactTransliterate
+      value={text}
+      onChangeText={(text) => {
+        setText(text);
+      }}
+      lang="hi"
+    />
+  );
+};
+
+export default App;
+```
 ## To be added in package.json
   <li>"homepage":"http://guhankesav.github.io/react-face-component-test"<br/>
     <li>"scripts": {<br/>
