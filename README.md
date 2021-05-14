@@ -2,7 +2,7 @@
 A Breautiful component to display display profile pictures , with animation on hover
 
 ## Demo  <br/>
-[See Demo](https://burhanuday.tech/react-transliterate/)
+[See Demo](http://guhankesav.github.io/react-face-component-test)
 
 ## Code :
 
