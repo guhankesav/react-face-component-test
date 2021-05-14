@@ -1,3 +1,9 @@
+
+Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
+
+## Examples
+
+
 ##Demo Link <br/>
 <h>https://guhankesav.github.io/react-face-component-test/<h/>
 
